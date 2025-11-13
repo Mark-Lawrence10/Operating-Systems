@@ -1,4 +1,16 @@
 Week 1 Progress
 
 SYSTEM SPECIFICATION
-- 
+Input - uname
+Output - Linux
+
+Input - free
+Output -              total      used      free    share    buff/cache  available
+            Mem:     5033544   1068520   3224044   1648      967560       3965024
+           Swap:        0        0          0
+
+Input - df -h 
+Output - Filesystem      Size    Used    Avail    Use%    Mounted on
+         tmpfs          492M     1.5M    491M      1%     /run
+         /dev/sda2      251G     6.0G    233G      3%     /
+         tmpfs          2.5G
